@@ -19,6 +19,22 @@ nav {
   padding: 10px 0;
   text-align: center;
 }
+/* Estilo para transformar os links do menu em botões */
+nav a {
+  background-color: #1abc9c;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #16a085;
+}
 
 nav a {
   color: white;
