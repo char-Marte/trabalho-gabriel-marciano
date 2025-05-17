@@ -1,41 +1,45 @@
-/* style.css */
+/* Estilo base para todo o corpo da página */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
+  font-family: Arial, sans-serif; /* Fonte */
+  margin: 0; /* Remove margem padrão do navegador */
+  padding: 0; /* Remove preenchimento padrão */
+  background-color: #f4f4f4; /* Cor de fundo */
+  color: #333; /* Cor do texto */
 }
 
+/* Cabeçalho da página */
 header {
-  background-color: #2c3e50;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
+  background-color: #2c3e50; 
+  color: white; 
+  padding: 20px 0; 
+  text-align: center; /* Centraliza o título */
 }
 
+/* Barra de navegação */
 nav {
-  background-color: #34495e;
-  padding: 10px 0;
-  text-align: center;
-}
-/* Estilo para transformar os links do menu em botões */
-nav a {
-  background-color: #1abc9c;
-  color: white;
-  padding: 10px 20px;
-  margin: 0 10px;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
-  transition: background-color 0.3s ease;
+  background-color: #34495e; 
+  padding: 10px 0; 
+  text-align: center; /* Centraliza os links */
 }
 
+/* Estilo para os links do menu — versão botão */
+nav a {
+  background-color: #1abc9c; /* Cor para os botões */
+  color: white; /* Texto branco */
+  padding: 10px 20px; /* Tamanho dos botões */
+  margin: 0 10px; /* Espaço entre os botões */
+  border-radius: 25px; /* Deixa os botões arredondados */
+  text-decoration: none; /* Remove sublinhado dos links */
+  font-weight: bold; /* Texto em negrito */
+  display: inline-block; /* Permite aplicar padding e margin corretamente */
+  transition: background-color 0.3s ease; /* Animação suave ao passar o mouse */
+}
+
+/* Efeito ao passar o mouse nos botões do menu */
 nav a:hover {
   background-color: #16a085;
 }
-
+/* Ajustes adicionais nos links do menu */
 nav a {
   color: white;
   margin: 0 15px;
@@ -43,23 +47,26 @@ nav a {
   font-weight: bold;
 }
 
+/* Efeito hover alternativo — sublinhado */
 nav a:hover {
   text-decoration: underline;
 }
 
+/* Conteúdo principal da página */
 main {
-  padding: 20px;
-  max-width: 900px;
-  margin: auto;
-  background-color: white;
+  padding: 20px; /* Espaçamento interno */
+  max-width: 900px; /* Largura máxima para não ficar muito esticado em telas grandes */
+  margin: auto; /* Centraliza o conteúdo */
+  background-color: white; 
 }
 
+/* Rodapé fixo no final da tela */
 footer {
-  text-align: center;
-  padding: 10px;
+  text-align: center; 
+  padding: 10px; 
   background-color: #2c3e50;
-  color: white;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  color: white; 
+  position: fixed; 
+  bottom: 0; 
+  width: 100%; /* Ocupa toda a largura da tela */
 }
