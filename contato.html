@@ -1,37 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR"> <!-- Define o idioma da página como português do Brasil -->
 <head>
-  <meta charset="UTF-8">
-  <title>Contato - Gabriel</title>
-  <link rel="stylesheet" href="Estilo.css">
+  <meta charset="UTF-8"> 
+  <title>Contato - Gabriel</title> <!-- Título que aparece na aba do navegador -->
+  <link rel="stylesheet" href="Estilo.css"> <!-- Importa um arquivo CSS externo para estilizar a página -->
 </head>
 <body>
   <header>
-    <h1>Fale Comigo</h1>
+    <h1>Fale Comigo</h1> <!-- Título principal da página exibido no topo -->
   </header>
+
   <nav>
+    <!-- Menu de navegação com links para outras páginas do site -->
     <a href="index.html">Sobre Mim</a>
     <a href="formacao.html">Formação</a>
     <a href="portfolio.html">Portfólio</a>
     <a href="contato.html">Contato</a>
   </nav>
+
   <main>
-    <h2>Entre em contato</h2>
-    <form>
+    <h2>Entre em contato</h2> <!-- Subtítulo da seção principal -->
+
+    <form> <!-- Início do formulário de contato -->
+
+      <!-- Campo para o nome -->
       <label for="nome">Nome:</label><br>
       <input type="text" id="nome" name="nome" required><br><br>
 
+      <!-- Campo para o e-mail -->
       <label for="email">E-mail:</label><br>
       <input type="email" id="email" name="email" required><br><br>
 
+      <!-- Campo para a mensagem -->
       <label for="mensagem">Mensagem:</label><br>
       <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
 
+      <!-- Botão de envio do formulário -->
       <input type="submit" value="Enviar">
-    </form>
+
+    </form> <!-- Fim do formulário -->
   </main>
+
   <footer>
-    &copy; 2025 Gabriel M. F. Luiz
+    &copy; 2025 Gabriel M. F. Luiz <!-- Rodapé com o nome e direitos autorais -->
   </footer>
 </body>
 </html>
